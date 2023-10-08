@@ -1,0 +1,22 @@
+{
+	"name": "@vtstats/og-image",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"dependencies": {
+		"@cloudflare/workers-types": "^4.20230419.0",
+		"@jsquash/png": "^2.1.4",
+		"@jsquash/webp": "^1.2.0",
+		"@resvg/resvg-wasm": "^2.4.1",
+		"date-fns": "^2.30.0",
+		"prettier": "^3.0.3",
+		"satori": "^0.10.9",
+		"typescript": "^5.0.4",
+		"wrangler": "^3.0.0",
+		"yoga-wasm-web": "^0.3.3"
+	}
+}
